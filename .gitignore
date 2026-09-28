@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Editor and system files
+.vscode/
+Thumbs.db
+
+# Big files we do NOT upload
+diabetic_data.csv
+*.pkl
