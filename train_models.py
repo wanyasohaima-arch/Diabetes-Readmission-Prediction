@@ -114,6 +114,7 @@ models = {
             min_samples_leaf=20,   # requires enough samples per leaf
             random_state=RANDOM_STATE,
             n_jobs=-1,
+            class_weight="balanced",
         )),
     ]),
 }
